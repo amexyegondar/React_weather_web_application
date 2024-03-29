@@ -1,0 +1,32 @@
+.hourly{
+    display: flex;
+    width: 100%;
+    top: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.hourly h3{
+    color: white;
+}
+.hourly-forecast{
+
+    width: 15vh;
+    height:20vh;
+    background-color: rgb(157, 223, 240) ;
+    border-radius: 20px;
+
+}
+.hourly-forecast h4{
+    background-color: rgb(4, 40, 51);
+
+}
+.hourly-forecast h3{
+    color: rgb(4, 40, 51);
+    
+}
+@media screen and (max-width:500px) {
+    .hourly{
+        justify-content: center;
+        align-items: center;
+    }
+}

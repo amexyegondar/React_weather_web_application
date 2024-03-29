@@ -1,0 +1,43 @@
+
+.today{
+    width: 30%;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.t-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width:1050px) {
+    .today{
+        width: 100%;
+
+    }
+    .today h1{
+        font-size: large;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:500px) {
+    .today{
+        width: 100%;
+        
+    }
+    .today h1{
+        font-size: large;
+        margin-top: 60px;
+    }
+    .t-container{
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,38 @@
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-container{
+   position: fixed;
+   width: 100%;
+}
+.weather{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 17vh;
+}
+@media only screen and (max-width:1050px) {
+   .weather{
+    flex-direction: column;
+   }
+   .forecast{
+    width: 100%;
+    gap: 7vh;
+   }
+}
+@media only screen and (max-width:500px) {
+    .weather{
+        flex-direction: column;
+       }
+       .forecast{
+        width: 100%;
+        gap: 7vh;
+       }
+}
